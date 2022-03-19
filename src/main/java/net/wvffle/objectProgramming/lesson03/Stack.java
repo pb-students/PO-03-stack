@@ -18,7 +18,7 @@ public class Stack<T> implements StackInterface<T> {
 
     @Override
     public Stack<T> init() {
-        return new Stack<T>();
+        return this;
     }
 
     @Override
